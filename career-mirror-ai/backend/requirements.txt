@@ -1,0 +1,22 @@
+# ============================================================
+# Career Mirror AI - Backend core dependencies (Windows-safe)
+# ============================================================
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+pymongo==4.10.1
+bcrypt==4.1.3
+PyJWT==2.10.1
+python-multipart==0.0.20
+email-validator==2.2.0
+pdfplumber==0.11.4
+python-docx==1.1.2
+google-auth==2.37.0
+httpx==0.28.1
+
+# NOTE: The local AI stack (semantic matching + NLP) is installed
+# separately via requirements-ai.txt so the app still installs
+# cleanly on machines without much disk space. The analyzer works
+# in a reduced mode without it (alias + fuzzy matching fallback).

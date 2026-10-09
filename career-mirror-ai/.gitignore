@@ -1,0 +1,37 @@
+# ============ Career Mirror AI — root .gitignore ============
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Environment files (never commit secrets)
+.env
+.env.local
+.env.*.local
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Model caches & data
+models/
+*.model
+.mongo-data/
+
+# Logs
+*.log
+logs/
+
+# Uploads kept locally
+backend/uploads/

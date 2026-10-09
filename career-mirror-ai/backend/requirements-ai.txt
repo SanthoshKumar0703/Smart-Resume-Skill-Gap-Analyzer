@@ -1,0 +1,10 @@
+# ============================================================
+# Career Mirror AI - Optional local AI stack (free / offline)
+# ============================================================
+# Semantic skill matching + resume NLP. Everything here runs 100%
+# locally - no paid APIs. Install with:
+#   pip install -r requirements-ai.txt
+#   python -m spacy download en_core_web_sm
+torch>=2.2.0
+sentence-transformers>=3.0.0
+spacy>=3.8.0
