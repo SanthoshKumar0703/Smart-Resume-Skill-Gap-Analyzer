@@ -1,2 +1,1 @@
-# Freelancer-Skill-Verification-Tool
-An AI-powered freelancer skill verification platform that evaluates skills, verifies freelancer profiles, and helps users assess professional capabilities.
+An AI-powered resume analysis platform that evaluates resumes, identifies skill gaps, compares candidate skills with job requirements, and provides personalized career improvement recommendations.
